@@ -24,7 +24,7 @@ Below I will demostrate using headers and indentations, pictures, and equations.
 
 * Quantum Mechanics
 
-* Bayesian Statistics $$ P(A|B) = P(B|A)P(A)/{P(B) $$
+* Bayesian Statistics
 
 * Statitistical Learning
 ![Fifa](Stat_Learning.png)
