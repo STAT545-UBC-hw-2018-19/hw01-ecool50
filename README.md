@@ -22,13 +22,19 @@ This repository contains my solutions to the first assignment for UBC STAT 545M 
     
 
 ## **Interests**
+
  * Machine Learning
+ 
+ * Statistical Learning
+ 
+ * Bayesian Statistics
+ 
 ![Machine Learning](Machine_Learning.png)
 
-* Bayesian Statistics
+
 ![Bayesian Statistics](Bayes.png)
 
-* Statistical Learning
+
 ![Statistical Learning](Stat_Learning.png)
 
 
