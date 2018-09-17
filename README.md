@@ -22,10 +22,10 @@ Below I will demostrate using headers and indentations, pictures, and equations.
 * Machine Learning
 ![Machine Learning](Machine_Learning.png)
 
-* Quantum Mechanics $$\frac{\hbar^2}{2m}\nabla^2\Psi + V(\mathbf{r})\Psi
-= -i\hbar \frac{\partial\Psi}{\partial t}$$
+* Quantum Mechanics $$ \frac{\hbar^2}{2m}\nabla^2\Psi + V(\mathbf{r})\Psi
+= -i\hbar \frac{\partial\Psi}{\partial t} $$
 
-* Bayesian Statistics $$P(A|B) = \frac{P(B|A)P(A)}{P(B)}$$
+* Bayesian Statistics $$ P(A|B) = \frac{P(B|A)P(A)}{P(B)} $$
 
 * Statitistical Learning
 ![Fifa](Stat_Learning.png)
