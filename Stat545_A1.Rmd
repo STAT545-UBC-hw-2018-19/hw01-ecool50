@@ -2,7 +2,7 @@
 title: "STAT545 Asiggnemnt 1"
 author: "Elijah Willie"
 date: "September 18, 2018"
-output: html_document
+output: pdf_document
 ---
 
 ```{r setup, include=FALSE}
@@ -14,7 +14,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ```{r Load Libraries}
 library(gapminder)
-library(tidyverse)
+suppressMessages(library("tidyverse"))
 ```
 
 ### Get some summary statistics on the data
