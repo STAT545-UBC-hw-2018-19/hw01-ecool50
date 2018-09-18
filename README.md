@@ -58,7 +58,7 @@ X | Y
 
 2. Links as well
 * [Why not to trust statistics](https://mathwithbaddrawings.com/2016/07/13/why-not-to-trust-statistics/)
-* [My exploration of the Gapminder data]()
+* [My exploration of the Gapminder data](https://github.com/STAT545-UBC-students/hw01-ecool50/blob/master/Stat545_A1.pdf)
 
 
 
