@@ -1,0 +1,54 @@
+---
+title: "STAT545 Asiggnemnt 1"
+author: "Elijah Willie"
+date: "September 18, 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Below are my exploratory analysis of the gapminder data
+### Load in the required libaries and the data
+
+```{r Load Libraries}
+library(gapminder)
+library(tidyverse)
+```
+
+### Get some summary statistics on the data
+
+```{r Load the data}
+summary(gapminder)
+```
+
+### Add natural log of gdpPercap to our dataset
+```{r}
+(gapminder.new = mutate(gapminder, lgdpPercap = log(gdpPercap)))
+select(gapminder.new, contains("gdpPercap"))
+```
+
+### Create a new dataset from year 1952 in Africa, Europe and Asia
+```{r}
+(gm1952 = filter(gapminder.new, year==1952,
+                continent %in% c("Africa", "Europe", "Asia")))
+```
+
+### Create a matching dataset for 2007
+```{r}
+(gm2007 = filter(gapminder.new, year==2007,
+                continent %in% c("Africa", "Europe", "Asia")))
+```
+
+### Plot life expectency vs log gdp per capita for the 3 continents on 1 axis in 1952
+```{r}
+ggplot(gm1952, aes(x=lifeExp, y=lgdpPercap)) +
+  geom_point(aes(color=continent)) + 
+  geom_smooth(method="lm", se=F, aes(colour=continent))
+```
+
+
+
+
+
